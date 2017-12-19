@@ -13,6 +13,9 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet FLAnimatedImageView *myImageView;
-
+- (void)loadRandomCatImage;
+-(void)nextPage;
+- (IBAction)refreshBtn:(id)sender;
+- (IBAction)nextBtn:(id)sender;
 @end
 

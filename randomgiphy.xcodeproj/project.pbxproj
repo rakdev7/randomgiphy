@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C15E7DD1E35645500545160 /* MeowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C15E7DC1E35645500545160 /* MeowViewController.m */; };
+		5C52B0BC1E3CF977002D43DF /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C52B0BB1E3CF977002D43DF /* abc.png */; };
 		5C7721E51E285344005FEA8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7721E41E285344005FEA8A /* main.m */; };
 		5C7721E81E285344005FEA8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7721E71E285344005FEA8A /* AppDelegate.m */; };
 		5C7721EB1E285344005FEA8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7721EA1E285344005FEA8A /* ViewController.m */; };
@@ -19,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		367F418E3F0A0F04C83ADE5D /* libPods-randomgiphy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-randomgiphy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C15E7DB1E35645500545160 /* MeowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeowViewController.h; sourceTree = "<group>"; };
+		5C15E7DC1E35645500545160 /* MeowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeowViewController.m; sourceTree = "<group>"; };
+		5C52B0BB1E3CF977002D43DF /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
 		5C7721E01E285344005FEA8A /* randomgiphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomgiphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7721E41E285344005FEA8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C7721E61E285344005FEA8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,9 +96,12 @@
 				5C7721E91E285344005FEA8A /* ViewController.h */,
 				5C7721EA1E285344005FEA8A /* ViewController.m */,
 				5C7721EC1E285345005FEA8A /* Main.storyboard */,
+				5C15E7DB1E35645500545160 /* MeowViewController.h */,
+				5C15E7DC1E35645500545160 /* MeowViewController.m */,
 				5C7721EF1E285345005FEA8A /* Assets.xcassets */,
 				5C7721F11E285345005FEA8A /* LaunchScreen.storyboard */,
 				5C7721F41E285345005FEA8A /* Info.plist */,
+				5C52B0BB1E3CF977002D43DF /* abc.png */,
 				5C7721E31E285344005FEA8A /* Supporting Files */,
 			);
 			path = randomgiphy;
@@ -178,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C52B0BC1E3CF977002D43DF /* abc.png in Resources */,
 				5C7721F31E285345005FEA8A /* LaunchScreen.storyboard in Resources */,
 				5C7721F01E285345005FEA8A /* Assets.xcassets in Resources */,
 				5C7721EE1E285345005FEA8A /* Main.storyboard in Resources */,
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C15E7DD1E35645500545160 /* MeowViewController.m in Sources */,
 				5C7721EB1E285344005FEA8A /* ViewController.m in Sources */,
 				5C7721E81E285344005FEA8A /* AppDelegate.m in Sources */,
 				5C7721FD1E285458005FEA8A /* JSONParser.m in Sources */,
@@ -403,6 +413,7 @@
 				5C7721F91E285345005FEA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
